@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/letters")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 public class LetterController {
 
     private final LetterService letterService;
